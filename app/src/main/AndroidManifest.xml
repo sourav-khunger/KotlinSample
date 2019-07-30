@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.demokotlin">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".Navigationclass"
+                android:label="@string/title_activity_navigationclass"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".BottomNavigationclass"
+                android:label="@string/title_activity_bottom_navigation"
+                android:theme="@style/darkbar"
+              >
+        </activity>
+        <activity
+                android:name=".Signup"
+                android:theme="@style/darkbar">
+        </activity>
+        <activity
+                android:name=".Login"
+                android:theme="@style/darkbar">
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
